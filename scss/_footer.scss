@@ -1,0 +1,16 @@
+.footer {
+	background-color: rgb(31, 30, 30);
+	padding: 1.2rem;
+	display: flex;
+	justify-content: center;
+	grid-area: footer;
+	p {
+		color: white;
+		font-size: 13px;
+	}
+}
+.redes {
+	position: fixed;
+	bottom: 15px;
+	right: 40px;
+}

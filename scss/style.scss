@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+@import "body";
+@import "header";
+@import "main";
+@import "aside";
+@import "footer";
+@import "nosotros";
+@import "variables";
+
+
+.formulario {
+	text-align: center;
+}
+
+.sale{
+    position: absolute;
+    left: 800px;
+}
+
+.inicio{
+    display:flex;
+    flex-direction:row
+    ;justify-content: center;
+}
+
+.email{
+	width: 80%;
+  }
+  
+
+@media only screen and (max-width: 726px) {
+	.contenedor {
+		flex-direction: column;
+	}
+	.header {
+		width: 100%;
+		flex-direction: column;
+		text-align: center;
+		padding-left: 1rem;
+		nav {
+			ul {
+				flex-direction: column;
+			}
+		}
+	}
+	.horario {
+		text-align: center;
+		width: 100%;
+	}
+	.doscontacto {
+		position: static;
+	}
+	.fony {
+		flex-direction: column;
+		text-align: center;
+		padding: 2rem;
+		.img {
+			width: 50%;
+			position: relative;
+		}
+		.newcz {
+			position: relative;
+			bottom: 300px;
+			top: 50px;
+			padding: 10px;
+		}
+		.nosotroslogo {
+			position: relative;
+			bottom: -30px;
+			right: 20px;
+			padding: 10px;
+		}
+	}
+	.aside {
+		flex-direction: row;
+		text-align: center;
+		padding: 2rem;
+		margin: auto;
+		.xd {
+			position: absolute;
+			width: 100%;
+		}
+	}
+	.sale {
+		display: flex;
+		position: sticky;
+		justify-content: center;
+	}
+	.dos {
+		position: static;
+	}
+}

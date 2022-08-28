@@ -1,0 +1,28 @@
+.fony {
+	.imgremeras {
+		text-align: center;
+		border: solid 1px;
+		padding: 1rem;
+		margin: 1rem;
+		width: 100%;
+		position: relative;
+		top: -150px;
+	}
+	h4 {
+		position: relative;
+		padding: 1px;
+		top: -90px;
+		color: $color;
+		text-align: justify;
+	}
+	.nosotroslogo {
+		right: 40%;
+		position: absolute;
+		bottom: 100px;
+	}
+}
+.newczimg {
+	position: relative;
+	top: -80px;
+	padding: 10px;
+}

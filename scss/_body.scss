@@ -1,0 +1,34 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: hsl(0, 0%, 0%);
+}
+.contenedor {
+	margin: auto;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 5fr;
+	grid-template-rows: 5fr;
+	grid-template-areas: "header header" "aside aside" "xd xd" "fony fony" "footer footer";
+}
+
+.horario {
+	text-align: center;
+	background-color: rgb(31, 30, 30);
+	color: white;
+	padding: 10px;
+	height: 42px;
+	width: 100%;
+}
+
+.dos {
+	position: relative;
+	left: 400px;
+	top: -25px;
+	width: 35px;
+}
+.doscontacto {
+	position: relative;
+	left: 400px;
+	top: -45px;
+	width: 35px;
+}
